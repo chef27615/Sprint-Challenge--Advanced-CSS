@@ -196,6 +196,12 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media (max-width:500px) {
+  footer {
+    max-width: 500px;
+    width: 100%;
+  }
+}
 .home .intro .HID {
   width: 100%;
 }
@@ -314,14 +320,6 @@ footer {
 .home .walk .walk-text .walk-img {
   width: 46%;
   margin-left: 4%;
-}
-@media (max-width:500px) {
-  .home .walk .walk-text .walk-img {
-    width: 100%;
-    max-width: 500px;
-    height: 15rem;
-    padding: 2rem;
-  }
 }
 .home .walk .walk-text .walk-img img {
   width: 100%;
