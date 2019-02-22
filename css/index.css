@@ -309,7 +309,7 @@ footer {
   text-align: center;
   padding-bottom: 5px;
 }
-.home .walk .walk-text .btnhover {
+.home .walk .walk-text .btn:hover {
   color: #22283A;
   background: #5E6164;
 }
