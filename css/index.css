@@ -263,7 +263,6 @@ footer {
 @media (max-width:500px) {
   .home .walk {
     flex-direction: column-reverse;
-    justify-content: center;
     max-width: 500px;
     width: 100%;
     padding: 5px;
@@ -276,6 +275,7 @@ footer {
   .home .walk .walk-text {
     width: 100%;
     max-width: 500px;
+    margin: 1rem 0;
   }
 }
 .home .walk .walk-text h3 {
@@ -317,8 +317,8 @@ footer {
 }
 @media (max-width:500px) {
   .home .walk .walk-text .walk-img {
-    max-width: 500px;
     width: 100%;
+    max-width: 500px;
     height: 15rem;
     padding: 2rem;
   }
@@ -327,10 +327,4 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
-}
-@media (max-width:500px) {
-  .home .walk .walk-text .walk-img img {
-    width: 100%;
-    max-width: 500px;
-  }
 }
