@@ -273,6 +273,9 @@ footer {
     width: 100%;
     padding: 5px;
   }
+  .home .walk img {
+    width: 100%;
+  }
 }
 .home .walk .walk-text {
   width: 50%;
