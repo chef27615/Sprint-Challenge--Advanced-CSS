@@ -275,6 +275,8 @@ footer {
   }
   .home .walk img {
     width: 100%;
+    margin: 2rem 0;
+    border-radius: 15px;
   }
 }
 .home .walk .walk-text {
